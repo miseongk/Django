@@ -38,6 +38,8 @@ myapp/
     tests.py
     views.py
 ```
+> serializers.py 추가 -> DRF를 사용하기 위해서 따로 생성
+> urls.py -> app단위로 분리해서 url을 정의하고, 프로젝트의 urls.py에서 한번에 import하는 방식으로 설계하기 위해 따로 생성
 ---
 **프로젝트 파일구조**
 ```
